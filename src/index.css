@@ -11,3 +11,265 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+
+p.advert-sale{
+  color: rgb(255, 232, 255);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 15px;
+  background-color: #87349e;
+  padding: 3px 9px 6px;
+  width: fit-content;
+  border-radius: 15px;
+}
+
+
+p.advert-price{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+
+.advert-tags span{
+font-weight: 700;
+}
+
+
+.deletedBtn{
+  float: right;
+  background-color: rgb(255, 220, 220);
+  padding: 5px 10px;
+  border-radius: 50%;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 12px;
+  width: 15px;
+}
+
+.confirmBlock{
+  background-color: white;
+  border: 1px solid black;
+  z-index: 20000;
+  position: absolute;
+  width: 35%;
+  padding: 30px;
+}
+
+
+.confirmBlock button{
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  font-size: 20px;
+  border: none;
+}
+
+
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.header-nav {
+  display: flex;
+  flex: 1 1;
+  justify-content: flex-end;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.header-nav a{
+  text-decoration: none;
+  color: black;
+}
+
+.header-nav .active {
+  color: purple;
+}
+
+.header-button {
+  width: 144px;
+  margin-left: 10px;
+}
+
+
+
+.layout-header {
+  background-color: white;
+  border-bottom-width: 1px;
+  height: 64px;
+  position: sticky;
+  top: 0;
+  padding: 0 15px;
+
+}
+
+.layout-main {
+  border-left-width: 1px;
+  border-right-width: 1px;
+  margin: 0 auto;
+  max-width: 660px;
+  min-height: calc(100vh - 128px);
+}
+
+.layout-title {
+  align-items: center;
+  border-bottom-width: 1px;
+  display: flex;
+  height: 52px;
+  padding: 0 15px;
+}
+
+
+.layout-footer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #eee;
+  padding: 6px 0;
+}
+
+
+.formField{
+  margin-bottom: 10px;
+}
+
+.formField-input {
+  background-color: transparent;
+  font-size: 20px;
+  height: 36px;
+  outline-style: none;
+  border-width: 1px;
+  padding: 2px 10px 5px 10px;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.formField-input[type='checkbox']{
+  width: 20px;
+}
+
+.formField-label span, .formTagTit{
+  color: rgb(101, 119, 134);
+}
+
+.formTagCont span{
+  font-size: 14px;
+  color: purple;
+}
+
+.formSel{
+  display: block;
+  margin-top: 5px;
+}
+
+
+.tagSel .formField-label{
+  display: flex;
+  align-items: center;
+}
+
+.tagSel .formField-label .formField-input{
+height: auto;
+}
+
+.newAdvertPage input[type='file']{
+  display: block;
+  margin-top: 5px;
+}
+
+.newAdvertPage button[type='submit']{
+display: block;
+margin-top: 20px;
+}
+
+
+.formBtn, .login-submit, .logBtn , .newadbtn{
+  background-color: purple;
+  padding: 5px 15px;
+  border-radius: 20px;
+  color: white;
+  border: none;
+font-size: 18px;
+font-weight: 600;
+text-decoration: none;
+}
+
+
+.formBtn:disabled, .login-submit:disabled{
+background-color: grey;
+}
+
+.login-submit{
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+.loginPage {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  max-width: 600px;
+  padding: 0 15px;
+  width: 100%;
+}
+
+.loginPage-title {
+  align-items: center;
+  display: flex;
+  height: 64px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+
+.loginForm-field {
+  padding: 10px 0;
+}
+
+.loginForm-submit {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.adverts-colum ul{
+  list-style: none;
+  
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.adverts-colum ul li{
+  background-color: #f2eef7;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.adverts-colum ul li a{
+  color: black;
+  text-decoration: none;
+}
+
+
+.advert-row .advert-name{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.row-display{
+  display: flex;
+  column-gap: 10px;
+}
+
+.advert-row p{
+  margin-top: 0;
+  margin-bottom: 5px;
+}
